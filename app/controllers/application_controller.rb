@@ -3,7 +3,7 @@ class ApplicationController < ActionController::Base
   before_action :set_style
 
   def set_style
-    @background_color = "#E6E6E6"
+    @background_color = "#FF0040"
     @font = "Courier New, Verdana"
     @font_size = "10pt"
   end
